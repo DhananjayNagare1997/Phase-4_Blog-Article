@@ -1,0 +1,30 @@
+**Title:  Exploring Zomato Restaurant Data: A Data-Driven Analysis**
+
+Introduction:
+Zomato, a renowned platform for exploring restaurants and dining experiences, provides a wealth of data that can offer valuable insights into consumer preferences and restaurant characteristics. In this analysis, we delve into a dataset sourced from Zomato to uncover trends and patterns within the restaurant industry.
+
+1. Problem Definition:
+The objective of this analysis is to understand the dynamics of the restaurant industry using Zomato data. We aim to explore factors influencing restaurant success, such as pricing, ratings, and services offered.
+
+2. Data Analysis:
+We begin by importing necessary libraries and loading the dataset. The dataset consists of restaurant information, including location, cuisine, pricing, ratings, and services offered. We merge two dataframes to combine relevant information and conduct an initial exploration to understand the dataset's shape, data types, and any missing values.
+
+3. Exploratory Data Analysis (EDA):
+Visualizing key aspects of the data provides insights into restaurant characteristics. We utilize various techniques such as histograms, pair plots, categorical plotting, heatmaps, correlation matrices, boxplots, and pie charts to analyze distributions, relationships between variables, and the distribution of rating text and top cuisines.
+
+4. Pre-processing Pipeline:
+Before model building, we preprocess the data by encoding categorical features, handling missing values, and dropping unnecessary columns. This ensures that the data is suitable for model training.
+
+5. Building Machine Learning Models:
+
+Part One: Predicting Average Cost for Two:
+We split the dataset into training and testing data, scale the data, and build regression models using techniques like Linear Regression, Ridge Regression, Random Forest Regressor, and Gradient Boosting Regressor. Hyperparameter tuning is performed for the Random Forest Regressor, and model predictions are made on sample data.
+
+Part Two: Predicting Price Range:
+For classification, we split the dataset, encode categorical features, and build models using Logistic Regression, Random Forest Classifier, and Gradient Boosting Classifier. Hyperparameter tuning is conducted for the Random Forest Classifier, and model predictions are made on sample data.
+
+6. Concluding Remarks:
+Our analysis uncovers significant insights into the restaurant industry. We summarize findings and highlight the best-performing models. These insights can assist restaurant owners in making informed decisions regarding pricing, services, and customer satisfaction.
+
+Conclusion:
+This analysis demonstrates the power of data-driven approaches in understanding complex industries such as restaurants. By leveraging Zomato data and employing advanced analytics techniques, we gain valuable insights that can drive business strategies and enhance customer experiences. Additionally, the trained models can be saved for future use, providing a foundation for ongoing analysis and decision-making.
